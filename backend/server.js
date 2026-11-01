@@ -18,7 +18,7 @@ connectDB();
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin: "https://pilot-frontend-g2x1.onrender.com",
     credentials: true,
   }),
 );

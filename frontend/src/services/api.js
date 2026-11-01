@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000/api",
+  baseURL: "https://pilot-csas.onrender.com/api",
   withCredentials: true, // send the auth cookie with every request
 });
 
